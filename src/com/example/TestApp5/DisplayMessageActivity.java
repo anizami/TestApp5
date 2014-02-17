@@ -1,20 +1,17 @@
 package com.example.TestApp5;
 
+
 import android.annotation.SuppressLint;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.app.Activity;
-import android.os.Bundle;
-import android.os.Build;
-import android.annotation.SuppressLint;
-import android.view.MenuItem;
-import android.widget.EditText;
+import android.support.v4.app.NavUtils;
 
 /**
  * Created by anizami on 2/16/14.
  */
-public class DisplayMessageActivity {
+public class DisplayMessageActivity extends Activity {
 
     @SuppressLint("NewApi")
     @Override

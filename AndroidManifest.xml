@@ -12,5 +12,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity
+                android:name="com.example.TestApp5.DisplayMessageActivity"
+                android:label="@string/title_activity_display_message"
+                android:parentActivityName="com.example.TestApp5.MyActivity" >
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.TestApp5.MyActivity" />
+        </activity>
     </application>
 </manifest>
